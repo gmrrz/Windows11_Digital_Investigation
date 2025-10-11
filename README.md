@@ -16,9 +16,9 @@
 
     - FTK Imager
 
-### Scenario
+## Scenario
 
-## Case Title
+### Case Title
 
 - State v. John Doe - Digital Evidence Examination
 

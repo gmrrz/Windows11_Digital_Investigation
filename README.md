@@ -1,33 +1,29 @@
 # Windows Digital Forensics Investigation
 
-### Overview
+## Overview
 
-- This project demonstrates a digital forensic investigation conducted in a Windows virtual machine (VM) enviornment. The goal is to simulate the process of collecting, preserving, and analyzing digital evidence in a controlled setting.
+- This project demonstrates a digital forensic investigation conducted in a Windows 11 enviornment. The goal is to simulate the process of collecting, preserving, and analyzing digital evidence in a controlled setting.
 
-### Environment Setup
-
+## Environment Setup
 - Host OS: Windows 11/ParrotOS(Linux)
-
-- Virtual Machine Software: Oracle VirtualBox
-
+- Target Device: ThinkPad T420s
 - Guest OS(Target): Windows 11
-
 - Investigator Tools:
+    - FTK Imager / Autopsy / Paladin / hash utilities
+- Storage for images & Logs: write-protected external drive or dedicated evidence server
 
-    - FTK Imager
+## Project Idea / Scenario
 
-## Scenario
+- Use the ThinPad for several days while interntionall downloading various files(images, documents, installers)
+- Deleted selcted files and perform actions that produce artifacts (open files, browse websites, install an app, plug USB devices)
+- State a "crime scene", suspicious downloads, potential downloads, potential data exfiltration, or unauthorized software installation.
+- Respond as an investigator arriving on scene, documenting, collecting, preserving, imaging, and analyzing evidence per LE procedures.
 
-### Case Title
+## Investigation Plan
 
-- State v. John Doe - Digital Evidence Examination
+##
 
-- Case Number: 01
-
-- Date Opened: 2007-10-12
-
-- Investigator/Examiner: Islam Salah / ID: M0000
-
-Case Summary
-
-- On 2007-10-12|03:15 PM (EST), officers responded to Main Street, Paterson, New Jersey regarding an alleged unauthorized access/data exfiltration 
+- Define objectives: what you want to prove/find (deleted files, web history, USB usage, installed malware).
+- Collect baseline info: device make/model, serial number, logged-on user, network connections (if live).
+- Photograph the scene: laptop closed/open, ports, connected devices, visible stickers/serial numbers.
+- Record chain of custody (CoC): who handled evidence, when, where, why.

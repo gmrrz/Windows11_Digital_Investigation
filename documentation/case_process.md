@@ -41,3 +41,7 @@ sudo dcfldd if=/dev/sdb of=/dev/sda hash=sha256 hashlog=/home/pi/hash.log
 | -------- | ---------------- | -------------------------- |
 | /dev/sdb | Evidence         | Read-only (write-blocked)  |
 | /dev/sda | Destination copy | Writable (receiving image) |
+
+---
+
+**Note:** Gloves were worn while handling the evidence. Briefly removed for typing commands; evidence itself was not touched with bare hands.

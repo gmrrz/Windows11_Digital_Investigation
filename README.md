@@ -58,7 +58,7 @@
 - **Integrity verification:**
   - SHA256 hash generated during imaging and logged for future verification.
   - Destination copy is now available for analysis without altering the original evidence.
-  - Important: I would be making two images for integrity, due to storage limitations I am doing 1 image with dd command.
+  - **Important:** I would be making two images for integrity reasons, due to storage limitations I'm doing only 1 image with dd.
 
 - **Notes:**
   - Gloves were worn while handling the evidence. Briefly removed for typing commands; evidence itself was not touched with bare hands.

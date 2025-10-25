@@ -1,5 +1,15 @@
 # Forensic Imaging Process
 
+## Imaging System Setup
+
+- Laptop/Workstation: Lenovo ThinkPad E16 Gen 2
+- Imager: Raspberry Pi 4, 4GB RAM
+- OS: Raspberry Pi OS 64-bit
+- Write blocker: automated blockdev
+- Imaging tools: dcfldd
+- Hashing tools: SHA256 via dcfldd
+- Network: System was offline during imaging for security purposes
+
 ## Lab Notes
 
 | Time (UTC) | Action | Notes | Command Ref |

@@ -15,7 +15,7 @@
 - **Investigator Tools:**  
     - Autopsy  
     - Paladin  
-    - Hash utilities (e.g., `sha256sum`, `md5sum`)  
+    - Hash utilities (`sha256sum`)  
     - [Forensic Duplicator](https://github.com/gmrrz/Rasp-Pi-Writer-Blocker)  
     - 2× SSD to USB-A Male converters  
     - Camera (for evidence documentation)  

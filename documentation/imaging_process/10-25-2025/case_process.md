@@ -14,7 +14,7 @@
 
 ## Lab Notes
 
-| Time (UTC) | Action | Notes | Command Ref |
+| Time (UTC) | Action | Command Ref |
 |-------------|--------|--------|--------------|
 | 6:35 PM (10/25/2025) | Arrived at the lab and reviewed previous imaging issue. Realized the previous process created a bit-for-bit clone instead of a forensic image. Planned to create a `.dd` image file and verify integrity through hashing. | - |
 | 6:44 PM (10/25/2025) | Verified both disks were correctly identified and confirmed read-only status. Made `/dev/sdb` writable to mount it as the destination. | C1 |

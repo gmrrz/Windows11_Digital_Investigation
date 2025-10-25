@@ -11,7 +11,7 @@
 - Target Device: ThinkPad T420s
 - Guest OS(Target): Windows 11
 - Investigator Tools:
-    - FTK Imager, Autopsy, Paladin, hash utilities, [gmrrz/Rasp-Pi-Forensic-Duplicator](https://github.com/gmrrz/Rasp-Pi-Writer-Blocker)), 2x SSD to USB-A-male converter, Raspi OS, Camera, Thinkpad E16 Gen2 Laptop(note/analyzation), image holder SSD, dd
+    - FTK Imager, Autopsy, Paladin, hash utilities, [Forensic-Duplicator](https://github.com/gmrrz/Rasp-Pi-Writer-Blocker)), 2x SSD to USB-A-male converter, Raspi OS, Camera, Thinkpad E16 Gen2 Laptop(note/analyzation), image holder SSD, dd
 - Storage for images & Logs: write-protected external drive or dedicated evidence server
 
 ## Project Idea / Scenario

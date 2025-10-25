@@ -7,12 +7,25 @@
 - This project demonstrates a digital forensic investigation conducted in a Windows 11 environment. The goal is to simulate the process of collecting, preserving, and analyzing digital evidence in a controlled setting.
 
 ## Environment Setup
-- Host OS: Windows 11/Linux
-- Target Device: ThinkPad T420s
-- Guest OS(Target): Windows 11
-- Investigator Tools:
-    - FTK Imager, Autopsy, Paladin, hash utilities, [Forensic-Duplicator](https://github.com/gmrrz/Rasp-Pi-Writer-Blocker), 2x SSD to USB-A-male converter, Raspi OS, Camera, Thinkpad E16 Gen2 Laptop(note/analyzation), image holder SSD, dd
-- Storage for images & Logs: write-protected external drive or dedicated evidence server
+
+- **Host OS:** Windows 11 / Linux  
+- **Target Device (Evidence):** ThinkPad T420s  
+- **Guest OS (Target VM):** Windows 11  
+
+- **Investigator Tools:**  
+    - Autopsy  
+    - Paladin  
+    - Hash utilities (e.g., `sha256sum`, `md5sum`)  
+    - [Forensic Duplicator](https://github.com/gmrrz/Rasp-Pi-Writer-Blocker)  
+    - 2× SSD to USB-A Male converters  
+    - Camera (for evidence documentation)  
+    - Lenovo ThinkPad E16 Gen 2 (investigator workstation / analysis notes / CoC)  
+    - Destination SSD for image storage  
+    - `dd` (for imaging)  
+
+- **Storage for Images & Logs:**  
+    - Write-protected external drive  
+    - Dedicated evidence server (if available)  
 
 ## Project Idea / Scenario
 

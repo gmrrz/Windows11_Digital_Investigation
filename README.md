@@ -28,16 +28,25 @@
 - Photograph the scene: laptop closed/open, ports, connected devices, visible stickers/serial numbers.
 - Record chain of custody (CoC): who handled evidence, when, where, why.
 
-### Phase 2 - Evidence Acquisition (Imaging)
+### Phase 2 – Evidence Acquisition (Imaging)
 
-- Goal: create a forensically sound bit‑stream image and verify integrity with hashes.
+- **Goal:** Create a forensically sound bit‑stream image of the evidence drive and verify integrity with SHA256 hashing.
 
-- Preferred workflow (forensic best practice)
-    - Remove the target drive if available and image it offline. If not possible, use a write‑blocker or live imaging with caution.
-    - Use FTK Imager (GUI) or dd/dcfldd (Linux) to create an image.
-    - Calculate hashes (MD5 and SHA256) before and after imaging to prove integrity.
+- **Workflow followed:**
+  - Connected the evidence drive (/dev/sdb) to a Raspberry Pi 4 via a write-blocker, keeping it read-only at all times.
+  - Connected the destination drive (/dev/sda) as the copy; initially read-only, later made writable to receive the image.
+  - Verified read-only status of both drives using blockdev.
+  - Performed imaging and hashing using dcfldd, with SHA256 hash logged to /home/pi/hash.log.
+  - Monitored progress and logged start/end times.
+  - Stored the original evidence drive safely in its evidence bag; it remained read-only throughout the process.
 
-    - Important: store original device (if removed) in evidence bag, label with date/time/initials. Never write to the original device.
+- **Integrity verification:**
+  - SHA256 hash generated during imaging and logged for future verification.
+  - Destination copy is now available for analysis without altering the original evidence.
+
+- **Notes:**
+  - Gloves were worn while handling the evidence. Briefly removed for typing commands; evidence itself was not touched with bare hands.
+  - Imaging performed offline to prevent network contamination.
 
 ### Phase 3 - Verification & Preservation
 

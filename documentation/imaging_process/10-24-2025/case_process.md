@@ -5,7 +5,7 @@
 - **Laptop/Workstation:** Lenovo ThinkPad E16 Gen 2  
 - **Imager:** Raspberry Pi 4 (4GB RAM)  
 - **Operating System:** Raspberry Pi OS 64-bit  
-- **Forensic Duplicator:** Raspberry Pi Write Blocker (Open-source: [gmrrz/Rasp-Pi-Writer-Blocker](https://github.com/gmrrz/Rasp-Pi-Writer-Blocker))  
+- **Forensic Duplicator:** Raspberry Pi Write Blocker (Open-source: [gmrrz/Rasp-Pi-Forensic-Duplicator](https://github.com/gmrrz/Rasp-Pi-Writer-Blocker))  
 - **Imaging Tool:** `dcfldd`  
 - **Hashing Tool:** SHA256 via `dcfldd`  
 - **Network Status:** Offline during imaging for data integrity and security  

@@ -33,12 +33,12 @@
 - **Goal:** Create a forensically sound bit‑stream image of the evidence drive and verify integrity with SHA256 hashing.
 
 - **Workflow followed:**
-  - Connected the evidence drive (/dev/sdb) to a Raspberry Pi 4 via a write-blocker, keeping it read-only at all times.
-  - Connected the destination drive (/dev/sda) as the copy; initially read-only, later made writable to receive the image.
+  - Connected the evidence drive (/dev/sda) to a Raspberry Pi 4 via a write-blocker, keeping it read-only at all times.
+  - Connected the destination drive (/dev/sdb) as the copy; initially read-only, later made writable to receive the image.
   - Verified read-only status of both drives using blockdev.
-  - Performed imaging and hashing using dcfldd, with SHA256 hash logged to /home/pi/hash.log.
+  - Performed imaging using dd, used SHA256 hash fo hashing.
   - Monitored progress and logged start/end times.
-  - Stored the original evidence drive safely in its evidence bag; it remained read-only throughout the process.
+  - Stored the original evidence drive safely in its evidence bag when finished with seasions; it remained read-only throughout the process.
 
 - **Integrity verification:**
   - SHA256 hash generated during imaging and logged for future verification.

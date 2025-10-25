@@ -28,6 +28,9 @@
 | 1:57 AM (10/25/2025) | Hash verification | Performed SHA256 hash checks and re-enabled read-only mode on `/dev/sda`. | C4 |
 | 4:46 AM (10/25/2025) | Hash result | Hash values between evidence and copy did not match. This is likely due to destination drive’s larger capacity and additional unused space. | - |
 | 5:02 AM (10/25/2025) | End of current session | Imaging and verification completed for initial attempt. Plan to reimage evidence drive on 10/26/2025 using a destination of equal capacity to confirm matching hashes. | - |
+| 6:35 PM (10/25/2025) | I got to the lab and I realized what the issue was. I was doing a bit for bit clone of the disk drive and not a image. Now I will mount the source and put a dd image there - compare the hashes - then unmount it and start analyzing | - |
+
+
 
 ---
 

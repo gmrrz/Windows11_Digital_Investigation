@@ -1,5 +1,7 @@
 # Windows Digital Forensics Investigation
 
+<img src="thumbnail.png"/>
+
 ## Overview
 
 - This project demonstrates a digital forensic investigation conducted in a Windows 11 environment. The goal is to simulate the process of collecting, preserving, and analyzing digital evidence in a controlled setting.
@@ -43,6 +45,7 @@
 - **Integrity verification:**
   - SHA256 hash generated during imaging and logged for future verification.
   - Destination copy is now available for analysis without altering the original evidence.
+  - Important: I would be making two images for integrity, due to storage limitations I am doing 1 image with dd command.
 
 - **Notes:**
   - Gloves were worn while handling the evidence. Briefly removed for typing commands; evidence itself was not touched with bare hands.

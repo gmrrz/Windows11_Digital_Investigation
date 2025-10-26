@@ -37,6 +37,7 @@
 - Deleted selected files and perform actions that produce artifacts (open files, browse websites, install an app, plug USB devices)
 - Stage a "crime scene", suspicious downloads, potential downloads, potential data exfiltration, or unauthorized software installation.
 - Respond as an investigator arriving on scene, documenting, collecting, preserving, imaging, and analyzing evidence per LE procedures.
+- Laptop usage from (10/12/2025)
 
 ## Investigation Plan
 

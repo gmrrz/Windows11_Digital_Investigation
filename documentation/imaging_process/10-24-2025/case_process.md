@@ -88,7 +88,7 @@ cat /home/pi/verified_hash.log
 
 Next Steps:
 
-- Reimage the evidence drive on 10/26/2025 using a destination drive of equal capacity.
+- Reimage the evidence drive on 10/25/2025 using a destination drive of equal capacity.
 
 - Store both drives in secure evidence storage until reimaging is performed.
 

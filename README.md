@@ -2,6 +2,10 @@
 
 <img src="thumbnail.png"/>
 
+[Final Report](https://github.com/gmrrz/Windows11_Digital_Investigation/blob/main/documentation/df_report.md)
+
+[Chain of Custody](https://github.com/gmrrz/Windows11_Digital_Investigation/blob/main/documentation/Chain-of-Custody-Form.docx.pdf)
+
 ## Overview
 
 - This project demonstrates a digital forensic investigation conducted in a Windows 11 environment. The goal is to simulate the process of collecting, preserving, and analyzing digital evidence in a controlled setting.

@@ -6,6 +6,10 @@
 
 - This project demonstrates a digital forensic investigation conducted in a Windows 11 environment. The goal is to simulate the process of collecting, preserving, and analyzing digital evidence in a controlled setting.
 
+> Note: This lab reflects my early learning process in forensic imaging and verification.
+> Feedback was incorporated to improve documentation and methodology.
+> All experiments were performed on educational/test devices only.
+
 ## Environment Setup
 
 - **Host OS:** Windows 11 / Linux  

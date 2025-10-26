@@ -56,18 +56,14 @@
   - Connected the evidence drive (/dev/sda) to a Raspberry Pi 4 via a write-blocker, keeping it read-only at all times.
   - Connected the destination drive (/dev/sdb) as the copy; initially read-only, later made writable to receive the image.
   - Verified read-only status of both drives using blockdev.
-  - Performed imaging using dd, used SHA256 hash fo hashing.
+  - Performed imaging using dd, **hashed both the original evidence and the image using SHA256**.
   - Monitored progress and logged start/end times.
-  - Stored the original evidence drive safely in its evidence bag when finished with seasions; it remained read-only throughout the process.
+  - Stored the original evidence drive safely in its evidence bag when finished; it remained read-only throughout.
 
 - **Integrity verification:**
-  - SHA256 hash generated during imaging and logged for future verification.
+  - SHA256 hashes match between the original and image.
   - Destination copy is now available for analysis without altering the original evidence.
-  - **Important:** I would be making two images for integrity reasons, due to storage limitations I'm doing only 1 image with dd.
-
-- **Notes:**
-  - Gloves were worn while handling the evidence. Briefly removed for typing commands; evidence itself was not touched with bare hands.
-  - Imaging performed offline to prevent network contamination.
+  - **Important:** Only one image was created for this educational exercise due to storage limitations.
 
 ### Phase 3 - Verification & Preservation
 

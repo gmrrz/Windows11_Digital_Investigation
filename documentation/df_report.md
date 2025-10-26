@@ -61,8 +61,7 @@ This investigation simulates a digital forensic examination of a Windows 11 envi
 8. [Analysis of the Evidence](#analysis-of-the-evidence)  
 9. [Summary and Findings in Relation to the Case](#summary-and-findings-in-relation-to-the-case)  
 10. [References](#references)  
-11. [Appendix 1](#appendix-1)  
-
+11. [#Reflection and Professional Takeaways](#reflection-and-professional-takeaways)
 ---
 
 ## Credentials of the Investigator
